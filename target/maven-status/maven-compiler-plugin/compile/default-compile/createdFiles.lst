@@ -1,4 +1,5 @@
 com\co\DAO\tbl_clienteDAO.class
 com\co\SchoolToolApplication.class
 com\co\prueba.class
+com\co\pojo\tbl_cliente.class
 com\co\SecurityConfig.class

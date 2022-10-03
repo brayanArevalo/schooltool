@@ -43,7 +43,7 @@
 
 /*Estilo formulario inicio sesión*/
 
-input[type=text], input[type=password], select {
+input[type=text], input[type=password],input[type=number]{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -54,12 +54,12 @@ input[type=text], input[type=password], select {
   outline: none;
 }
 
-input[type=text]:focus, input[type=password]:focus,select {
+input[type=text]:focus, input[type=password],input[type=number]:focus{
   border-color: #5fcf80;
 }
 
 
-input[type=submit] {
+input[type=submit]{
   background: #5fcf80;
   border: 0;
   padding: 10px 35px;
@@ -92,7 +92,14 @@ input[type=submit]:hover {
   margin: auto;
 }
 
+.table .table-header{
+    background-color: #5FCF80;   
+}
 
+.table-header .text-header{
+     font-family: "Raleway", sans-serif;
+     color:#fff;
+}
 
 
 /*Fin estilo inicio sesión*/
