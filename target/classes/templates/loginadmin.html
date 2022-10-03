@@ -68,7 +68,30 @@
       <section id="contenido">
         <div class="container">
           <h1>Aqui vamos a listar la base de datos </h1>
-
+        <div class="container mt-3">          
+            <div th:if="${clientes != null and !clientes.empty}"> 
+                <table class="table table-striped" style="background-color: white;">
+                    <tr>
+                        <th>ID Cliente</th>
+                        <th>Usuario</th>
+                        <th>Contraseña</th>
+                    </tr>
+                    <tr th:each="cliente : ${clientes}">
+                        <td th:text="${cliente.clien_id}">Mostrar IDUsuario</td>
+                        <td th:text="${cliente.clien_user}">Mostrar Usuario</td>
+                        <td th:text="${cliente.clien_password}">Mostrar Contraseña</td>
+                        <!--
+                        <td>
+                            <a class="btn btn-success btn-sm" th:href="@{/editar/}+${usuarios.clien_id}"> Editar</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger btn-sm" th:href="@{/eliminar/}+${usuarios.clien_id}">Eliminar</a>
+                        </td>
+                        -->
+                    </tr>
+                </table>
+            </div> 
+        </div>
         </div>
       </section>
 

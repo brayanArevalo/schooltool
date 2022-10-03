@@ -1,5 +1,4 @@
-com\co\SchoolTool\ControladorInicio.class
 com\co\DAO\tbl_clienteDAO.class
-com\co\SchoolTool\SchoolToolApplication.class
-com\co\SchoolTool\SecurityConfig.class
-com\co\pojo\tbl_cliente.class
+com\co\SchoolToolApplication.class
+com\co\prueba.class
+com\co\SecurityConfig.class

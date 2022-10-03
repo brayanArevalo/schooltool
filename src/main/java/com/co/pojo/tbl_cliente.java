@@ -10,6 +10,7 @@ import lombok.Data;
 @Entity
 @Table(name = "tbl_cliente")
 public class tbl_cliente implements Serializable {
+
     @Id
     private Integer clien_id;
     private String clien_user;
